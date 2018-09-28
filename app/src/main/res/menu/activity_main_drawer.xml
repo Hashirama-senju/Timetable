@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/nav_group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dayview"
+
+            android:title="Dayview" />
+        <item
+            android:id="@+id/nav_weekview"
+
+            android:title="Weekview" />
+
+    </group>
+    <group android:id="@+id/nav_group2"
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_settings"
+            android:title="Settings"
+            />
+        <item android:id="@+id/nav_about"
+            android:title="About"/>
+        <item android:id="@+id/nav_logout"
+            android:title="Log Out"/>
+
+
+    </group>
+
+</menu>

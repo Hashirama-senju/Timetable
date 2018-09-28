@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="period_list">
+        <item>SEPM</item>
+        <item>TOC</item>
+        <item>CN</item>
+        <item>DBMS</item>
+        <item>ISEE</item>
+    </string-array>
+    <string-array name="week_day">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="period_type">
+        <item>Theory</item>
+        <item>Practical</item>
+    </string-array>
+<string-array name="Member_info">
+    <item>Ankur Pandey</item>
+    <item>Mohd. Suhaib Ahmed</item>
+    <item>Anam Sayad</item>
+    <item>Sanika Havale</item>
+</string-array>
+</resources>

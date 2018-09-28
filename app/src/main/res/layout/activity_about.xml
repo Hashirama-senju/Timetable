@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AboutActivity">
+
+    <ImageView
+        android:id="@+id/tticon"
+        android:layout_width="157dp"
+        android:layout_height="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tticon"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_below="@id/tticon"
+        android:layout_marginTop="50dp"
+        android:background="#ffffff"
+        android:text="@string/About_page"
+        android:textColor="#350635"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about"
+        android:layout_marginTop="15dp"
+        android:text="Developers :"
+        android:textColor="#250425"
+        android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/tag"
+        android:layout_marginTop="20dp">
+
+    </ListView>
+
+
+</RelativeLayout>
